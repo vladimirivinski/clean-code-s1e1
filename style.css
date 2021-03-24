@@ -72,7 +72,7 @@ label[for="new-task"] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -84,7 +84,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.text:focus {
     color: #333;
 }
 
@@ -123,7 +123,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li > input[type="text"] {
+li > .text {
     width: 226px;
 }
 li > button.delete:hover {
@@ -145,11 +145,11 @@ button.delete img:hover {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+ul li .text {
     display: none;
 }
 
-ul li.edit-mode input[type="text"] {
+ul li.edit-mode .text {
     display: inline-block;
     width: 224px;
 }
