@@ -80,7 +80,7 @@ var addTask=function(){
 
 var editTask=function(){
     console.log('Edit Task...');
-    console.log('Change 'edit' to 'save'');
+    console.log("Change 'edit' to 'save'");
 
 
     var listItem=this.parentNode;
